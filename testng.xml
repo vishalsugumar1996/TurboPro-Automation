@@ -1,0 +1,20 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test">
+	<test name="Login Functionality">
+		<!-- <groups> <run> <include name="" /> </run> </groups> -->
+
+		<classes>
+			<class name="com.sysvine.turbopro.automation.Commons" />
+			<class name="com.sysvine.turbopro.automation.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="Invoice Funtionalities">
+		<classes>
+			<class name="com.sysvine.turbopro.automation.utils.DBConnector" />
+			<class name="com.sysvine.turbopro.automation.customers.InvoiceTest" />
+		</classes>
+	</test>
+
+</suite>

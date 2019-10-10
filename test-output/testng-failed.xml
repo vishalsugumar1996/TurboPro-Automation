@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Test]">
+  <test thread-count="5" name="Invoice Funtionalities(failed)">
+    <classes>
+      <class name="com.sysvine.turbopro.automation.customers.InvoiceTest">
+        <methods>
+          <include name="checkShipToAddress"/>
+          <include name="initalizeElemets"/>
+        </methods>
+      </class> <!-- com.sysvine.turbopro.automation.customers.InvoiceTest -->
+    </classes>
+  </test> <!-- Invoice Funtionalities(failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->
