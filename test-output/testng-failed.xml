@@ -5,7 +5,7 @@
     <classes>
       <class name="com.sysvine.turbopro.automation.customers.InvoiceTest">
         <methods>
-          <include name="checkShipToAddress"/>
+          <include name="checkTaxTerritory"/>
           <include name="initalizeElemets"/>
         </methods>
       </class> <!-- com.sysvine.turbopro.automation.customers.InvoiceTest -->

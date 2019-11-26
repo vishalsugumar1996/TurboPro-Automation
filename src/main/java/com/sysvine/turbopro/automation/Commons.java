@@ -12,12 +12,15 @@ public class Commons {
 	public static WebDriver driver;
 	
 	
+	
+	
 	@BeforeSuite
 	public void openBrowser () {
 		System.setProperty("webdriver.chrome.driver", driveExe);
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(siteURL);
+
 	}
 	
 	@AfterSuite

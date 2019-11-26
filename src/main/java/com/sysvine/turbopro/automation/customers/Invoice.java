@@ -2,6 +2,7 @@ package com.sysvine.turbopro.automation.customers;
 
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -87,6 +88,9 @@ public class Invoice {
 	@FindBy(id = "customerInvoice_generaltaxId")
 	WebElement tax_percentage;
 	
+	@FindBy(id = "emailListCU")
+	WebElement emailID;
+	
 	private ArrayList<Address> actualShipToAddresses = new ArrayList<Address>();
 	private WebDriverWait wait;
 	
@@ -140,15 +144,17 @@ public class Invoice {
 	
 	public ArrayList<Address> getShipToAddresses(){
 		addShipToAddress();
+		Collections.sort(actualShipToAddresses);
 		return actualShipToAddresses;
 	}
 	
 	public boolean isNextAddressAvailable() {	
 		String imageURL = switchNextIcon.getCssValue("background");		
-		if( !imageURL.contains("DisabledArrowright") ) {
+		if( !imageURL.contains("DisabledArrowright" ) ) {
 			switchNextIcon.click();
 			return true;
 		}	
 		return false;
 	}
+
 }

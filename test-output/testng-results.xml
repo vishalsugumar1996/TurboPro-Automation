@@ -1,106 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke Test" duration-ms="20308" started-at="2019-10-10T14:43:17 IST" finished-at="2019-10-10T14:43:38 IST">
+  <suite name="Smoke Test" duration-ms="14535" started-at="2019-10-20T10:22:38 IST" finished-at="2019-10-20T10:22:53 IST">
     <groups>
     </groups>
-    <test name="Login Functionality" duration-ms="11839" started-at="2019-10-10T14:43:17 IST" finished-at="2019-10-10T14:43:29 IST">
+    <test name="Login Functionality" duration-ms="4994" started-at="2019-10-20T10:22:38 IST" finished-at="2019-10-20T10:22:43 IST">
       <class name="com.sysvine.turbopro.automation.LoginTest">
-        <test-method status="PASS" signature="initiate()[pri:0, instance:com.sysvine.turbopro.automation.LoginTest@49fc609f]" name="initiate" is-config="true" duration-ms="60" started-at="2019-10-10T14:43:17 IST" finished-at="2019-10-10T14:43:17 IST">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.sysvine.turbopro.automation.LoginTest@3d99d22e]" name="initiate" is-config="true" duration-ms="65" started-at="2019-10-20T10:22:38 IST" finished-at="2019-10-20T10:22:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method status="PASS" signature="verifyIncorrectLogin()[pri:0, instance:com.sysvine.turbopro.automation.LoginTest@49fc609f]" name="verifyIncorrectLogin" duration-ms="9003" started-at="2019-10-10T14:43:18 IST" finished-at="2019-10-10T14:43:27 IST">
+        <test-method status="PASS" signature="verifyIncorrectLogin()[pri:0, instance:com.sysvine.turbopro.automation.LoginTest@3d99d22e]" name="verifyIncorrectLogin" duration-ms="1701" started-at="2019-10-20T10:22:38 IST" finished-at="2019-10-20T10:22:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncorrectLogin -->
-        <test-method status="PASS" signature="verifyLogin()[pri:1, instance:com.sysvine.turbopro.automation.LoginTest@49fc609f]" name="verifyLogin" duration-ms="2629" started-at="2019-10-10T14:43:27 IST" finished-at="2019-10-10T14:43:29 IST">
+        <test-method status="PASS" signature="verifyLogin()[pri:1, instance:com.sysvine.turbopro.automation.LoginTest@3d99d22e]" name="verifyLogin" duration-ms="3098" started-at="2019-10-20T10:22:40 IST" finished-at="2019-10-20T10:22:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
       </class> <!-- com.sysvine.turbopro.automation.LoginTest -->
     </test> <!-- Login Functionality -->
-    <test name="Invoice Funtionalities" duration-ms="8153" started-at="2019-10-10T14:43:30 IST" finished-at="2019-10-10T14:43:38 IST">
+    <test name="Invoice Funtionalities" duration-ms="9364" started-at="2019-10-20T10:22:43 IST" finished-at="2019-10-20T10:22:53 IST">
       <class name="com.sysvine.turbopro.automation.Commons">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.sysvine.turbopro.automation.Commons@3d99d22e]" name="openBrowser" is-config="true" duration-ms="2907" started-at="2019-10-10T14:43:14 IST" finished-at="2019-10-10T14:43:17 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.sysvine.turbopro.automation.Commons@32709393]" name="openBrowser" is-config="true" duration-ms="3158" started-at="2019-10-20T10:22:35 IST" finished-at="2019-10-20T10:22:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.sysvine.turbopro.automation.Commons@3d99d22e]" name="closeBrowser" is-config="true" duration-ms="119" started-at="2019-10-10T14:43:38 IST" finished-at="2019-10-10T14:43:38 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.sysvine.turbopro.automation.Commons@32709393]" name="closeBrowser" is-config="true" duration-ms="122" started-at="2019-10-20T10:22:53 IST" finished-at="2019-10-20T10:22:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.sysvine.turbopro.automation.Commons -->
       <class name="com.sysvine.turbopro.automation.utils.DBConnector">
-        <test-method status="PASS" signature="connectDB()[pri:0, instance:com.sysvine.turbopro.automation.utils.DBConnector@2d6eabae]" name="connectDB" is-config="true" duration-ms="280" started-at="2019-10-10T14:43:17 IST" finished-at="2019-10-10T14:43:17 IST">
+        <test-method status="PASS" signature="connectDB()[pri:0, instance:com.sysvine.turbopro.automation.utils.DBConnector@23faf8f2]" name="connectDB" is-config="true" duration-ms="341" started-at="2019-10-20T10:22:38 IST" finished-at="2019-10-20T10:22:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectDB -->
-        <test-method status="PASS" signature="closeConnection()[pri:0, instance:com.sysvine.turbopro.automation.utils.DBConnector@2d6eabae]" name="closeConnection" is-config="true" duration-ms="11" started-at="2019-10-10T14:43:38 IST" finished-at="2019-10-10T14:43:38 IST">
+        <test-method status="PASS" signature="closeConnection()[pri:0, instance:com.sysvine.turbopro.automation.utils.DBConnector@23faf8f2]" name="closeConnection" is-config="true" duration-ms="10" started-at="2019-10-20T10:22:53 IST" finished-at="2019-10-20T10:22:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeConnection -->
       </class> <!-- com.sysvine.turbopro.automation.utils.DBConnector -->
       <class name="com.sysvine.turbopro.automation.customers.InvoiceTest">
-        <test-method status="PASS" signature="initalizeElemets()[pri:0, instance:com.sysvine.turbopro.automation.customers.InvoiceTest@4e7dc304]" name="initalizeElemets" is-config="true" duration-ms="14" started-at="2019-10-10T14:43:30 IST" finished-at="2019-10-10T14:43:30 IST">
+        <test-method status="PASS" signature="initalizeElemets()[pri:0, instance:com.sysvine.turbopro.automation.customers.InvoiceTest@2d6eabae]" name="initalizeElemets" is-config="true" duration-ms="14" started-at="2019-10-20T10:22:43 IST" finished-at="2019-10-20T10:22:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalizeElemets -->
-        <test-method status="PASS" signature="checkCusNameSuggestions()[pri:0, instance:com.sysvine.turbopro.automation.customers.InvoiceTest@4e7dc304]" name="checkCusNameSuggestions" duration-ms="5848" started-at="2019-10-10T14:43:30 IST" finished-at="2019-10-10T14:43:35 IST">
+        <test-method status="PASS" signature="checkCusNameSuggestions()[pri:0, instance:com.sysvine.turbopro.automation.customers.InvoiceTest@2d6eabae]" name="checkCusNameSuggestions" duration-ms="7005" started-at="2019-10-20T10:22:44 IST" finished-at="2019-10-20T10:22:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCusNameSuggestions -->
-        <test-method status="PASS" signature="checkInvoiceDate()[pri:1, instance:com.sysvine.turbopro.automation.customers.InvoiceTest@4e7dc304]" name="checkInvoiceDate" duration-ms="31" started-at="2019-10-10T14:43:35 IST" finished-at="2019-10-10T14:43:35 IST">
+        <test-method status="PASS" signature="checkInvoiceDate()[pri:1, instance:com.sysvine.turbopro.automation.customers.InvoiceTest@2d6eabae]" name="checkInvoiceDate" duration-ms="31" started-at="2019-10-20T10:22:51 IST" finished-at="2019-10-20T10:22:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkInvoiceDate -->
-        <test-method status="FAIL" signature="checkShipToAddress()[pri:2, instance:com.sysvine.turbopro.automation.customers.InvoiceTest@4e7dc304]" name="checkShipToAddress" duration-ms="2248" started-at="2019-10-10T14:43:35 IST" finished-at="2019-10-10T14:43:38 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Lists differ at element [0]: com.sysvine.turbopro.automation.customers.Address@726386ed != com.sysvine.turbopro.automation.customers.Address@10027fc9 expected [com.sysvine.turbopro.automation.customers.Address@726386ed] but found [com.sysvine.turbopro.automation.customers.Address@10027fc9]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Lists differ at element [0]: com.sysvine.turbopro.automation.customers.Address@726386ed != com.sysvine.turbopro.automation.customers.Address@10027fc9 expected [com.sysvine.turbopro.automation.customers.Address@726386ed] but found [com.sysvine.turbopro.automation.customers.Address@10027fc9]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:1033)
-at org.testng.Assert.assertEquals(Assert.java:995)
-at com.sysvine.turbopro.automation.customers.InvoiceTest.checkShipToAddress(InvoiceTest.java:58)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="checkShipToAddress()[pri:2, instance:com.sysvine.turbopro.automation.customers.InvoiceTest@2d6eabae]" name="checkShipToAddress" duration-ms="2302" started-at="2019-10-20T10:22:51 IST" finished-at="2019-10-20T10:22:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkShipToAddress -->
+        <test-method status="PASS" signature="checkTaxTerritory()[pri:3, instance:com.sysvine.turbopro.automation.customers.InvoiceTest@2d6eabae]" name="checkTaxTerritory" duration-ms="2" started-at="2019-10-20T10:22:53 IST" finished-at="2019-10-20T10:22:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTaxTerritory -->
       </class> <!-- com.sysvine.turbopro.automation.customers.InvoiceTest -->
     </test> <!-- Invoice Funtionalities -->
   </suite> <!-- Smoke Test -->
